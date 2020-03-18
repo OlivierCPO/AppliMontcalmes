@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 }
    private void visualiser_presentation()
    {
+       // creation d'une nouvelle activité
        Intent intent = new Intent (this , presentation.class );
        startActivity(intent);
     }
