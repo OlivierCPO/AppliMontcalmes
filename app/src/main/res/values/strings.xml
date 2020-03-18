@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppliMontcalmes</string>
+    <string name="texteintro">LE MYSTERE DE MONTCALMES</string>
+    <string name="bouttonintro">Commencez l\'enquete !</string>
+    <string name="bouttonversvill">en route vers le village !</string>
+    <string name="boutonc">C</string>
+    <string name="boutonb">B</string>
+    <string name="boutona">A</string>
+    <string name="boutoneglise">resoudre l\'enigme</string>
+</resources>
