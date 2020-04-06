@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".eglisereso"></activity>
+        <activity android:name=".potagerreso"></activity>
+        <activity android:name=".potager" />
+        <activity android:name=".Echec" />
+        <activity android:name=".eglisereso" />
         <activity android:name=".Eglise" />
         <activity android:name=".enigme1" />
         <activity android:name=".presentation" />

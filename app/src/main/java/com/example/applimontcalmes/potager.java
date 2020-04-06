@@ -7,25 +7,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class enigme1 extends AppCompatActivity {
+public class potager extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        int i=0;
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_enigme1);
-        Button monBouton = (Button)findViewById(R.id.button3);
+        setContentView(R.layout.activity_potager);
+        Button monBouton = (Button)findViewById(R.id.button9);
         monBouton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick (View view){
-                visualiser_enig1();
+                visualiser_lab();
             }
         });
     }
 
-    private void visualiser_enig1()
+    private void visualiser_lab()
     {
-        Intent intent = new Intent (this , Eglise.class );
+        Intent intent = new Intent (this , potagerreso.class );
         startActivity(intent);
     }
 }

@@ -7,4 +7,6 @@
     <string name="boutonb">B</string>
     <string name="boutona">A</string>
     <string name="boutoneglise">resoudre l\'enigme</string>
+    <string name="reessayer">reessayer</string>
+    <string name="s_approcher">s\'approcher</string>
 </resources>
