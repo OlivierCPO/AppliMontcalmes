@@ -15,4 +15,6 @@
     <string name="validez">validez</string>
     <string name="dernier_mot">dernier mot</string>
     <string name="reponse">reponse</string>
+    <string name="entrer">Entrer</string>
+    <string name="sortir_du_chateau">sortir du chateau</string>
 </resources>

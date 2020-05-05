@@ -9,14 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".potagerreso"></activity>
+        <activity android:name=".chateaureso"></activity>
+        <activity android:name=".chateaulouis" />
+        <activity android:name=".Chateau" />
+        <activity android:name=".potagerreso" />
         <activity android:name=".potager" />
         <activity android:name=".Echec" />
         <activity android:name=".eglisereso" />
         <activity android:name=".Eglise" />
         <activity android:name=".enigme1" />
         <activity android:name=".presentation" />
-        <activity android:name=".EcranAccueil" >
+        <activity android:name=".EcranAccueil">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
