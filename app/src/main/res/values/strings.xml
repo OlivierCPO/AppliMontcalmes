@@ -7,4 +7,9 @@
     <string name="boutonb">B</string>
     <string name="boutona">A</string>
     <string name="boutoneglise">resoudre l\'enigme</string>
+    <string name="saisirreponse">saisir réponse</string>
+    <string name="bouton">Bouton</string>
+    <string name="revenir">Revenir</string>
+    <string name="continuer">Continuer</string>
+    <string name="Reessayer">Réessayer</string>
 </resources>
