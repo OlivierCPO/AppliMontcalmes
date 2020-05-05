@@ -7,14 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class skinnydipping extends AppCompatActivity {
+public class trempette extends AppCompatActivity {
 
     private Button Suivant;
     private Button precedent;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_skinnydipping);
+        setContentView(R.layout.activity_trempette);
         Suivant = (Button) findViewById(R.id.Suivant);
         Suivant.setOnClickListener(suivantListener);
         precedent = (Button) findViewById(R.id.precedent);
@@ -32,7 +34,7 @@ public class skinnydipping extends AppCompatActivity {
 
 
     private void ActiviteSuivante (){
-        Intent intent = new Intent (this,Lac.class );
+        Intent intent = new Intent (this,rencontretarzan.class );
         startActivity(intent);
     }
 
