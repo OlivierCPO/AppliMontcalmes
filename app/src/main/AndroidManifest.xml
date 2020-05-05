@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Perdu"></activity>
+        <activity android:name=".enigmemedecin"></activity>
+        <activity android:name=".Perdu" />
         <activity android:name=".congrats" />
         <activity android:name=".Lac" />
         <activity android:name=".eglisereso" />

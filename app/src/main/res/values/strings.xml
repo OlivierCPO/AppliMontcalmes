@@ -12,4 +12,6 @@
     <string name="revenir">Revenir</string>
     <string name="continuer">Continuer</string>
     <string name="Reessayer">Réessayer</string>
+    <string name="Suivant">Suivant</string>
+    <string name="Precedent">Précédent</string>
 </resources>
