@@ -14,4 +14,7 @@
     <string name="Reessayer">Réessayer</string>
     <string name="Suivant">Suivant</string>
     <string name="Precedent">Précédent</string>
+    <string name="suivant">Suivant</string>
+    <string name="precedent">Précédent</string>
+    <string name="buton">Suivant</string>
 </resources>

@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".enigmemedecin"></activity>
+        <activity android:name=".rencontretarzan"></activity>
+        <activity android:name=".quellepotion" />
+        <activity android:name=".pont" />
+        <activity android:name=".jevaispasmourir" />
+        <activity android:name=".enigmemedecin" />
         <activity android:name=".Perdu" />
         <activity android:name=".congrats" />
         <activity android:name=".Lac" />
