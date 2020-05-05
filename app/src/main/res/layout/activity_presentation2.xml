@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".presentation"
-    android:background="@drawable/imagepresentation">
+    android:background="@drawable/introsuite">
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="205dp"
-        android:layout_height="67dp"
-        android:background="#151515"
+        android:layout_width="173dp"
+        android:layout_height="48dp"
+        android:background="#0C746A"
+        android:fontFamily="@font/acme2"
         android:text="@string/bouttonversvill"
         android:textColor="#FAF8F8"
         app:layout_constraintBottom_toBottomOf="parent"

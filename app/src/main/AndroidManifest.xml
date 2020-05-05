@@ -16,7 +16,7 @@
         <activity android:name=".Eglise" />
         <activity android:name=".enigme1" />
         <activity android:name=".presentation" />
-        <activity android:name=".EcranAccueil">
+        <activity android:name=".EcranAccueil" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

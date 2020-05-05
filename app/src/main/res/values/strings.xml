@@ -9,4 +9,10 @@
     <string name="boutoneglise">resoudre l\'enigme</string>
     <string name="reessayer">reessayer</string>
     <string name="s_approcher">s\'approcher</string>
+    <string name="valider">valider</string>
+    <string name="textview">TextView</string>
+    <string name="saisirtexte">saisir texte</string>
+    <string name="validez">validez</string>
+    <string name="dernier_mot">dernier mot</string>
+    <string name="reponse">reponse</string>
 </resources>

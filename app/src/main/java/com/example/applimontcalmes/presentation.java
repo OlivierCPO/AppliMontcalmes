@@ -1,5 +1,6 @@
 package com.example.applimontcalmes;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
@@ -21,11 +22,11 @@ public class presentation extends Activity {
                 visualiser_lab();
             }
         });
-    }
+    }//meme fonctionement que pour l'ecran d'accueil bouton activé -> creation fonction qui lance la class suivante
 
     private void visualiser_lab()
     {
-        Intent intent = new Intent (this , enigme1.class );
+        Intent intent = new Intent (this , enigme1.class ); //renvoi vers class enigme 1 quand le bouton est appuyé
         startActivity(intent);
     }
 }

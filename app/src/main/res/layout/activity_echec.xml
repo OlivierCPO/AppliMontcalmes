@@ -5,17 +5,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Echec"
-    android:background="@drawable/echec">
+    android:background="@drawable/echecoff">
 
     <Button
         android:id="@+id/button8"
         android:layout_width="118dp"
-        android:layout_height="59dp"
+        android:layout_height="46dp"
+        android:background="#D0C0C0"
+        android:fontFamily="@font/acme"
         android:text="@string/reessayer"
+        android:textColor="#171616"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942" />
+        app:layout_constraintVertical_bias="0.954" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="306dp"
+        android:layout_height="94dp"
+        android:fontFamily="@font/acme"
+        android:text="MAUVAISE REPONSE "
+        android:textAlignment="center"
+        android:textColor="#F44336"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
 </androidx.constraintlayout.widget.ConstraintLayout>
